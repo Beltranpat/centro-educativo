@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preescolar - Centro Educativo San Francisco de Asís</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #41a34eda;
+            --secondary-color: #3835dd;
+            --background-color: #f4f4f4;
+            --text-color: #555555;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            text-align: center;
+        }
+
+        nav {
+            background-color: var(--primary-color);
+        }
+
+        nav .nav-link {
+            color: white !important;
+            font-weight: bold;
+        }
+
+        header {
+            background: url('img/pree.jpg') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 120px 20px;
+            position: relative;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        header p {
+            font-size: 1.5rem;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+
+        section {
+            padding: 40px 20px;
+        }
+
+        .benefits {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 40px 20px;
+        }
+
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="Logo" width="50" class="d-inline-block align-middle">
+                Centro Educativo San Francisco de Asís
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="mision-vision-valores.html">Misión y Visión</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Preescolar</h1>
+        <p>El inicio de un futuro brillante</p>
+    </header>
+
+    <!-- Introducción -->
+    <section id="intro" class="container">
+        <h2 class="text-center mb-4">Bienvenidos al Nivel Preescolar</h2>
+        <p>
+            Nuestro programa de preescolar está diseñado para fomentar el aprendizaje y desarrollo integral de los niños en sus primeros años.
+            En un ambiente seguro, cálido y estimulante, los pequeños desarrollan habilidades fundamentales a través de actividades creativas y lúdicas.
+        </p>
+    </section>
+
+    <!-- Beneficios -->
+    <section class="benefits text-center">
+        <h2>¿Qué ofrecemos?</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Ambiente Seguro</h3>
+                    <p>Espacios diseñados para garantizar el bienestar y seguridad de los niños.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Metodologías Innovadoras</h3>
+                    <p>Enfoque basado en el juego y aprendizaje práctico.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Desarrollo Integral</h3>
+                    <p>Fomentamos habilidades cognitivas, sociales y emocionales.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Centro Educativo San Francisco de Asís. Todos los derechos reservados.</p>
+        <p>Contacto: info@cesfa.edu | Teléfono: +123 456 789</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
