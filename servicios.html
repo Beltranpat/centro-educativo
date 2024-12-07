@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios - Centro Educativo San Francisco de Asís</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #41a34eda;
+            --secondary-color: #3835dd;
+            --background-color: #f4f4f4;
+            --text-color: #555555;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }
+
+        nav {
+            background-color: var(--primary-color);
+        }
+
+        nav .nav-link {
+            color: white !important;
+            font-weight: bold;
+        }
+
+        header {
+            background: url('img/foto3.jpg') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        section {
+            padding: 40px 20px;
+        }
+
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="Logo" width="50" class="d-inline-block align-middle">
+                Centro Educativo San Francisco de Asís
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="mision-vision-valores.html">Misión, Visión y Valores</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Servicios
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="educacion-basica.html">Educación Básica</a></li>
+                            <li><a class="dropdown-item" href="bachillerato.html">Bachillerato</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Servicios</h1>
+        <p>Descubre lo que ofrecemos en cada nivel educativo</p>
+    </header>
+
+    <!-- Educación Básica -->
+    <section id="educacion-basica" class="container my-5">
+        <h2 class="text-center mb-4">Educación Básica</h2>
+        <p>
+            Nuestro nivel de educación básica abarca desde primero hasta noveno grado. Este programa ofrece una formación integral que combina 
+            conocimientos académicos, habilidades prácticas y valores fundamentales para preparar a nuestros estudiantes para los desafíos 
+            del futuro.
+        </p>
+        <ul>
+            <li>Metodologías modernas que fomentan el aprendizaje significativo.</li>
+            <li>Formación integral para el desarrollo cognitivo, social y emocional.</li>
+            <li>Preparación académica para el siguiente nivel educativo.</li>
+        </ul>
+    </section>
+
+    <!-- Bachillerato -->
+    <section id="bachillerato" class="container my-5">
+        <h2 class="text-center mb-4">Bachillerato</h2>
+        <p>
+            En el nivel de bachillerato, ofrecemos modalidades generales y técnicas que incluyen Computación, Electrónica, Secretariado y 
+            Contaduría. Nuestro objetivo es brindar a los estudiantes las herramientas necesarias para continuar con estudios superiores 
+            o integrarse exitosamente al mundo laboral.
+        </p>
+        <ul>
+            <li>Bachillerato General: Formación académica integral.</li>
+            <li>Técnico en Computación: Desarrollo de habilidades tecnológicas avanzadas.</li>
+            <li>Técnico en Electrónica: Conocimientos prácticos en sistemas electrónicos.</li>
+            <li>Técnico en Secretariado: Formación administrativa y organizacional.</li>
+            <li>Técnico en Contaduría: Habilidades en contabilidad y finanzas.</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Centro Educativo San Francisco de Asís. Todos los derechos reservados.</p>
+        <p>Dirección: Costa Rica | Teléfono: +506 456 789 | Email: info@franciscoasis.edu</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
